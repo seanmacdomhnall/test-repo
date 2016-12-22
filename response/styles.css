@@ -1,0 +1,114 @@
+
+/* Normal Styling */
+
+.resp_inner_container {
+	margin:0px auto;
+}
+
+/*First Line Colour and Size*/
+#resp_header_container {
+	margin:0px auto;
+	height: 50px;
+	background: #FFFFFF;
+}
+
+	#resp_header_container #resp_header_logo {
+		float:left;
+		padding:14px 5px 5px;
+		padding-left: 20%;
+	}
+		
+			#resp_header_container #resp_header_logo img {
+				display:block;
+			}
+
+/*Second Line Colour and Size*/
+#menu{
+	height: 34px;
+	background: #FFFFFF;
+}
+			
+.resp_page_container {
+    clear: both;
+    position: relative;
+}
+
+
+#realex_module {
+	padding-top:15px;
+	margin:20px auto;
+	max-width:600px;
+	display:block;
+}
+
+/*Block the Realex Logo - Comment out to not hide*/
+.rxp-footer{
+	display:block;
+	background-color:#ffffff;
+}
+.rxp-footer-left{
+background-image: none;
+}
+
+/*Button Colour*/
+.rxp-body input#rxp-primary-btn,.rxp-footer
+.rxp-body input#rxp-primary-btn:hover {
+    text-align: center;
+    margin: 0;
+    background: transparent;
+    background-color: #03A0DE;
+}
+
+#rxp-body .help-block {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.form-actions{
+	background:white;
+	border:0px;
+}
+#rxp-body .form-actions{
+	border:0px;
+	}
+
+
+/* Smart Phone Portrait */
+@media only screen and (min-width: 0px) {
+	
+	.resp_inner_container {
+		width:320px;	
+	}
+}
+
+/* Smart Phone Landscape & 7" Tablet Portrait */
+@media only screen and (min-width: 480px) {
+	
+	.resp_inner_container {
+		width:460px;	
+	}
+
+}
+
+/* 7" Tablet Landscape & 10" Tablet Portrait */
+@media only screen and (min-width: 768px) {
+	
+	.resp_inner_container {
+		width:760px;	
+	}
+}
+
+/* 10" Tablet Landscape & Normal Computers */
+@media only screen and (min-width: 1024px) {
+	
+	.resp_inner_container {
+		width:992px;
+	}
+}
+
+#rxp-body .rxp-btn-primary:hover, #rxp-body .rxp-btn-primary:FOCUS, #rxp-body .rxp-btn-primary:active, #rxp-body .rxp-btn-primary.active, #rxp-body .rxp-btn-primary.disabled, #rxp-body .rxp-btn-primary[disabled]{
+background-color: #0589c1;
+}
+
+
+

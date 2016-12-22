@@ -1,0 +1,13 @@
+
+/* Progress Tracker */
+
+#resp_checkout_progress ul {
+	background:url(../images/bg_progress_bar_bg_small.png) 0 30px repeat-x;
+	background-size:300px 15px;
+}
+			
+		
+	#resp_checkout_progress ul li .resp_checkout_progress_img {
+		background:url(../images/bg_progress_bar_small.png) center top no-repeat;
+	}
+	

@@ -1,0 +1,228 @@
+<style type="text/css">
+            body {
+                padding-top: 20px;
+                padding-bottom: 60px;
+            }
+            /* Custom container */
+            .container {
+                margin: 0 auto;
+                max-width: 1000px;
+            }
+            .container > hr {
+                margin: 60px 0;
+            }
+            table{
+                width: 100%;
+                text-align: left;
+            }
+            /* Main marketing message and sign up button */
+            .jumbotron {
+                margin: 80px 0;
+                text-align: center;
+            }
+            .jumbotron h1 {
+                font-size: 56px;
+                line-height: 1;
+            }
+            .jumbotron .lead {
+                font-size: 24px;
+                line-height: 1.25;
+            }
+            .jumbotron .btn {
+                font-size: 21px;
+                padding: 14px 24px;
+            }
+            /* Supporting marketing content */
+            .marketing {
+                margin: 60px 0;
+            }
+            .marketing p + h4 {
+                margin-top: 28px;
+            }
+            #books .span4 {
+                text-align: center;
+            }
+            #books img {
+                height: 200px;
+                margin-bottom: 10px;
+            }
+            #books .span4 p {
+                min-height: 120px;
+                max-height: 120px;
+            }
+            .book-price{
+                font-size: 20pt;
+                font-weight: bold;
+                margin-bottom: 0;
+                padding-bottom: 0 !important;
+                height: auto !important;
+                min-height: 40px !important;
+            }
+            .jumbotron {
+                margin: 50px 0;
+                text-align: center;
+            }
+            .overlay {
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 0;
+                height: 0;
+                overflow-x: hidden;
+                overflow-y: auto;
+                z-index: -998;
+                font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+                font-weight: 200;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                -o-user-select: none;
+                user-select: none;
+                background: rgba(0, 0, 0, 0.6);
+                perspective: 800;
+                -webkit-perspective: 800;
+                opacity: 0;
+            }
+            .overlay.active {
+
+                opacity: 1;
+                z-index: 998;
+                width: 100%;
+                height: 100%;
+                -webkit-transition: 320ms opacity ease;
+                -moz-transition: 320ms opacity ease;
+                -ms-transition: 320ms opacity ease;
+                -o-transition: 320ms opacity ease;
+                transition: 320ms opacity ease;
+            }
+            .frame {
+                z-index: 999; 
+                margin: 0 auto; 
+                position: fixed; 
+                top: 25px; 
+                left: 50%; 
+                margin-left: -200px;
+            }
+            #action-bar{
+                float:right;
+                width: 100%;
+            }
+            #action-bar form{
+                float: left;
+                margin-right: 5px;
+            }
+            th{
+                border-bottom:2px solid #D7D8d8;
+            }
+            .container > hr {
+                margin: 60px 0;
+                clear: both;
+            }
+            span.remove {
+                background-image: url('images/minus.png');
+                background-repeat: no-repeat;
+                cursor: pointer;
+                padding: 0px 15px;
+            }
+            span.add {
+                background-image: url('images/plus.png');
+                background-repeat: no-repeat;
+                cursor: pointer;
+                padding: 0px 15px;
+            }
+            span.delete {
+                font-size: 9pt;
+                color: white;
+                background: #D7D7D7;
+                font-weight: bold;
+                cursor: pointer;
+                padding: 7px;
+                margin-right: 11px;
+                border-radius: 4px;
+            }
+            span.total-qty {
+                padding-right: 15px;
+                font-weight: bold;
+            }
+
+            table td{
+                padding: 5px;
+            }
+
+
+            #sub-total-total{
+                width: 100%;
+                text-align: right;
+                font-size: 20pt;
+                padding: 14px 0px;
+            }
+
+            .checkout-btn{
+                float:right;
+            }
+            .checkout-lightbox{
+                float:right; 
+                margin-right:5px;}
+            .btn-info{
+				    text-align: center;
+					margin: 0;
+					background: transparent;
+					background-color: #f4911e;
+                }
+			.btn-info:hover{
+				background-color: #d58019;
+				}
+			.iframebtn{
+				margin-right:5px;margin-top:-20px;
+
+			}
+			.iframeDiv{
+				margin-left:15%;
+				margin-top:0px;
+				margin-right:35%;
+				width:650px;
+				}
+			.iframeDiv iframe{
+				width:700px;
+				height:650px;
+			
+				}
+            @media (max-width: 420px){
+                .checkout-btn {
+                   
+                }
+				 .checkout-lightbox{
+                float:right; 
+                margin-right:0px;
+				margin-top:5px;
+				}
+				.iframebtn{
+				margin-right:0px;
+				margin-top:0px;
+
+			}
+			.iframeDiv{
+				margin-left:0;
+			 margin-top:0px;
+			 margin-right:0;width:335px;}
+			.iframeDiv iframe{
+				width:335px;
+				height:650px;
+			
+				}
+            }
+
+        </style>
+        <style type="text/css">
+iframe#embedhpp {
+    border:0px solid #ccc;
+    width:100%;
+    }
+    
+    #pay-button{
+        
+    }
+    
+    
+    
+</style>

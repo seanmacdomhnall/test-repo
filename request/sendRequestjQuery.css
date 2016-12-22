@@ -1,0 +1,18 @@
+.myHppButtonsOuter {
+	width:100%;
+}
+
+.myHppButtonsInner {
+    	margin: 0 auto;
+	text-align: center;
+	margin-top:5%;
+}
+
+.responseInner {
+	min-width:420px;
+	font-size:14px;
+	font-family:arial;
+	margin: 0 auto;
+	margin-top:3%;
+	width:25%;
+}
